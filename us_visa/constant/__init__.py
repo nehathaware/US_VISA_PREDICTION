@@ -4,9 +4,8 @@ import urllib
 
 DATABASE_NAME = 'US_VISA'
 COLLECTION_NAME = 'us_data'
-# Currently using MONGODB_URL manually as unable to add env variable, but it is not good idea to put it manually as storing password hardcoded.
-MONGODB_URL_KEY =  "mongodb+srv://nehathaware:" + urllib.parse.quote('Neha@2196') + "@cluster0.7gtx25c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
+# MONGODB_URL_KEY = 'MONGODB_URL'
+MONGODB_URL_KEY = "mongodb+srv://nehathaware:" + urllib.parse.quote('Neha@2196') + "@cluster0.7gtx25c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 PIPELINE_NAME:str = 'usvisa' 
 ARTIFACT_DIR:str = 'artifact' 
 MODEL_FILE_NAME = 'model.pkl'
