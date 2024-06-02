@@ -19,18 +19,9 @@ US VISA APPROVAL PREDICTION
 
 
 
-# MongoDB-
-username - nehathaware
-psd  = Neha@2196
-hostname/ipaddress - 0.0.0.0/0
-
 install driver
 python -m pip install "pymongo[srv]"==3.6
 
-connection string 
-
-mongodb+srv://nehathaware:'Neha@2196'@cluster0.7gtx25c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-CONNECTION_URL_WORKING = "mongodb+srv://nehathaware:" + urllib.parse.quote('Neha@2196') + "@cluster0.7gtx25c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 # workflow
