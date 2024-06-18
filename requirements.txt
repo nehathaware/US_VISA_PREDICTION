@@ -22,7 +22,7 @@ fastapi
 uvicorn
 jinja2
 python-multipart
-install driver
+#install driver
 #python -m pip install "pymongo[srv]"==3.6
 
 -e .   # -e will redirect to setup.py and run the file 

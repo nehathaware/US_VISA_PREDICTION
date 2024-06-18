@@ -2,6 +2,7 @@ import sys
 from us_visa.exception import USvisaException
 from us_visa.logger import logging
 
+# we can also used '*' instead of class names while importing but it is better to used class name directly to understand
 from us_visa.components.data_ingestion import DataIngestion
 
 
