@@ -32,3 +32,6 @@ python -m pip install "pymongo[srv]"==3.6
 4. components
 5. pipeline
 6. app.py
+
+# Data validation
+1. added schema.yaml
