@@ -5,6 +5,11 @@ US VISA APPROVAL PREDICTION
 
 
 # git command
+  Before starting git execution, need to set github username and email -
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
 1. git add <file_name>
 2. git commit -m 'commit msg'
 3. git push origin main
