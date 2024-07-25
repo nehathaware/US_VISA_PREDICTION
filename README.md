@@ -28,6 +28,10 @@ US VISA APPROVAL PREDICTION
 install driver
 python -m pip install "pymongo[srv]"==3.6
 
+# Env variable
+export AWS_ACCESS_KEY_ID = <AWS ACCESS KEY ID>
+export AWS_SECRET_ACCESS_KEY = <AWS SECRETE KEY ID>
+
 
 
 # workflow
