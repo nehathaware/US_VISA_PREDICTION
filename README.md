@@ -17,7 +17,7 @@ US VISA APPROVAL PREDICTION
 # create env
 
 1. conda create -n visa python=<version> -y
-# eg conda create -n visa python=3.11 -y
+# eg conda create -n visa1 python=3.11 -y
 2. conda activate visa
 
 # to install requirements
