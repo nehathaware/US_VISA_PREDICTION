@@ -24,7 +24,6 @@ US VISA APPROVAL PREDICTION
 1. pip install -r requirements.txt
 
 
-
 install driver
 python -m pip install "pymongo[srv]"==3.6
 
